@@ -12,10 +12,6 @@ Face detection has gained a lot of attention due to its real-time applications. 
 OpenCV contains many pre-trained classifiers for face, eyes, smile etc. The XML files of pre-trained classifiers are stored in opencv/data/. For face detection specifically, there are two pre-trained classifiers:
 
 # Haar Cascade Classifier
-LBP Cascade Classifier
-We will explore both face detectors in this tutorial.
-
-# Haar Cascade Classifier
 It is a machine learning based approach where a cascade function is trained from a lot of positive (images with face) and negative images (images without face). The algorithm is proposed by Paul Viola and Michael Jones.
 
 The algorithm has four stages:
